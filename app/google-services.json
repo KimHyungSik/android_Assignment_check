@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649708946105",
+    "firebase_url": "https://hyeoungdb.firebaseio.com",
+    "project_id": "hyeoungdb",
+    "storage_bucket": "hyeoungdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649708946105:android:2d15b2eb3b42bd8cc39168",
+        "android_client_info": {
+          "package_name": "com.example.assignment_check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649708946105-v88vc276audr0lij55ed327p9ice7631.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assignment_check",
+            "certificate_hash": "a7ffa29f186262dfbd24313404c47acf39c4fdd3"
+          }
+        },
+        {
+          "client_id": "649708946105-tj7kil5k60bd49qqftf10e08t2ef5qqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClds_iH6ViBQQHNuoiQLjabuzHpDG6w-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649708946105-tj7kil5k60bd49qqftf10e08t2ef5qqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

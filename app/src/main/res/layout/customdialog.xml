@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/modify_title"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="7"/>
+
+        <EditText
+            android:id="@+id/modify_subtitle"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="7"
+            android:layout_gravity="top"
+            />
+
+        <EditText
+            android:id="@+id/modify_content"
+            android:selectAllOnFocus="true"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:imeOptions="actionDone"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            android:layout_weight="7"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button android:id="@+id/push_data"
+        android:layout_margin="10dp"
+        android:text="데이터 보내기"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+        <Button android:id="@+id/delet_data"
+            android:layout_margin="10dp"
+            android:text="데이터 삭제"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <Button android:id="@+id/mod_bt"
+            android:layout_margin="10dp"
+            android:text="수정"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+
